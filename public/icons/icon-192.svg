@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192" role="img" aria-labelledby="title desc">
+  <title id="title">Petlify app icon</title>
+  <desc id="desc">Rounded square with orange heart-shaped paw print</desc>
+  <rect width="192" height="192" rx="44" fill="#f8f4ec" />
+  <g transform="translate(32 32)">
+    <path d="M64 28c-14.36 0-26 11.64-26 26 0 24 26 40 26 40s26-16 26-40c0-14.36-11.64-26-26-26Z" fill="#ff6f0f" />
+    <circle cx="26" cy="26" r="14" fill="#ffa34d" />
+    <circle cx="102" cy="26" r="14" fill="#ffa34d" />
+    <circle cx="44" cy="-2" r="12" fill="#ffa34d" />
+    <circle cx="84" cy="-2" r="12" fill="#ffa34d" />
+  </g>
+</svg>

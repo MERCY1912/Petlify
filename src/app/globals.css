@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-sand text-forest min-h-screen antialiased;
+}
+
+a {
+  @apply text-brand-600 hover:text-brand-700 transition-colors;
+}
+
+main {
+  @apply flex-1;
+}

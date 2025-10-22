@@ -248,3 +248,20 @@ Realtime: новые pets появляются в ленте без обновл
 PWA устанавливается; офлайн отображается последняя сохранённая лента.
 
 Безошибочный билд и деплой на Vercel + запущенный PocketBase.
+
+## Локальный запуск
+
+```bash
+npm install
+npm run dev
+```
+
+Перед запуском заполните `.env.local` на основе `.env.example` и разверните PocketBase c коллекциями из раздела «Домены данных». Для пуш-уведомлений укажите `FCM_SERVER_KEY` и web push VAPID ключ.
+
+## Структура
+
+- `src/app` — страницы Next.js (App Router)
+- `src/components` — UI-компоненты и формы
+- `src/lib` — клиенты PocketBase, геолокация и Firebase
+- `src/app/api` — серверные обработчики (Turnstile и рассылка FCM)
+- `public/sw.js` — сервис-воркер для PWA
